@@ -1,0 +1,618 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "question": "Would you rather be surrounded by people or keep to yourself?",
+      "answers": [
+        {
+          "answer": "I generally enjoying being with company.",
+          "value": 7
+        },
+        {
+          "answer": "It depends on my current mood.",
+          "value": 3
+        },
+        {
+          "answer": "I prefer peace and quiet in my down time.",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 2,
+      "question": "Do you have an issue with sharing things with your roomate?",
+      "answers": [
+        {
+          "answer": "No I don't mind sharing.",
+          "value": 5
+        },
+        {
+          "answer": "Depends on whats being shared.",
+          "value": 3
+        },
+        {
+          "answer": "I would rather keep my things to myself.",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 3,
+      "question": "Are you in a relationship?",
+      "answers": [
+        {
+          "answer": "No",
+          "value": 4
+        },
+        {
+          "answer": "Yes",
+          "value": 4
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 4,
+      "question": "Do you smoke?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 4
+        },
+        {
+          "answer": "No",
+          "value": 4
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 5,
+      "question": "Do you mind if guys\/girls(opposite gender) stay the night?",
+      "answers": [
+        {
+          "answer": "Yes I mind.",
+          "value": 8
+        },
+        {
+          "answer": "No I don't care",
+          "value": 7
+        },
+        {
+          "answer": "Occasionally",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 6,
+      "question": "Being organized is more important to you than being adaptable",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 5
+        },
+        {
+          "answer": "Sometimes",
+          "value": 4
+        },
+        {
+          "answer": "Not at all",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 7,
+      "question": "An interesting book or video game is better than a social event.",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 7
+        },
+        {
+          "answer": "Sometimes",
+          "value": 4
+        },
+        {
+          "answer": "Not at all",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 8,
+      "question": "Are you an early bird or night owl?",
+      "answers": [
+        {
+          "answer": "Early Bird",
+          "value": 8
+        },
+        {
+          "answer": "Night Owl",
+          "value": 8
+        },
+        {
+          "answer": "Both",
+          "value": 8
+        },
+        {
+          "answer": "Neither",
+          "value": 8
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 9,
+      "question": "Are you a deep sleeper?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 6
+        },
+        {
+          "answer": "Sometimes",
+          "value": 6
+        },
+        {
+          "answer": "Not at all",
+          "value": 6
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 10,
+      "question": "Do you fall asleep to TV or music?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 5
+        },
+        {
+          "answer": "Depends",
+          "value": 3
+        },
+        {
+          "answer": "No",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 11,
+      "question": "Do you plan on joining groups, clubs, or organizations when you get to campus?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 7
+        },
+        {
+          "answer": "Possibly, it's too soon to tell",
+          "value": 3
+        },
+        {
+          "Answer": "No",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 12,
+      "question": "Do you mind if your roomate decides to partake in Greek Life?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 8
+        },
+        {
+          "answer": "Doesn't matter",
+          "value": 5
+        },
+        {
+          "answer": "No",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 13,
+      "question": "How likely are you to be going out on the weekdays?",
+      "answers": [
+        {
+          "answer": "Often",
+          "value": 7
+        },
+        {
+          "answer": "Occasionally",
+          "value": 5
+        },
+        {
+          "answer": "Never",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 14,
+      "question": "Do you mind if your roommate has multiple people over at the same time?",
+      "answers": [
+        {
+          "answer": "Yes, I mind",
+          "value": 6
+        },
+        {
+          "answer": "No, I don't mind",
+          "value": 6
+        },
+        {
+          "answer": "It depends",
+          "value": 4
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 15,
+      "question": "Would you mind if your roommate likes to party?",
+      "answers": [
+        {
+          "answer": "Yes, I would mind",
+          "value": 9
+        },
+        {
+          "answer": "No, I wouldn't mind",
+          "value": 9
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 16,
+      "question": "Do you care how often your roommate showers?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 7
+        },
+        {
+          "answer": "It depends",
+          "value": 4
+        },
+        {
+          "answer": "No",
+          "value": 7
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 17,
+      "question": "What kind of music do you listen to?",
+      "answers": [
+        {
+          "answer": "Pop",
+          "value": 1
+        },
+        {
+          "answer": "Hip-Hop",
+          "value": 1
+        },
+        {
+          "answer": "Country",
+          "value": 1
+        },
+        {
+          "answer": "Rock",
+          "value": 1
+        },
+        {
+          "answer": "Classical",
+          "value": 1
+        },
+        {
+          "answer": "Punk Rock",
+          "value": 1
+        },
+        {
+          "answer": "Latino",
+          "value": 1
+        },
+        {
+          "answer": "EDM",
+          "value": 1
+        },
+        {
+          "answer": "Blues",
+          "value": 1
+        },
+        {
+          "answer": "Funk",
+          "value": 1
+        },
+        {
+          "answer": "Indie",
+          "value": 1
+        },
+        {
+          "answer": "Whatever's popular",
+          "value": 1
+        },
+        {
+          "answer": "Other",
+          "value": 1
+        },
+        {
+          "answer": "I don't like listening to music",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 18,
+      "question": "Do you prefer your music loud?",
+      "answers": [
+        {
+          "answer": "A. Yes, I want the neighbors to be able to hear it.",
+          "value": 5
+        },
+        {
+          "answer": "B. Yes, not too loud but enough to have a good time.",
+          "value": 5
+        },
+        {
+          "answer": "C. No I prefer a reletively quiet room.",
+          "value": 5
+        },
+        {
+          "answer": "D. If I want to listen to music, I will put headphones on.",
+          "value": 5
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 19,
+      "question": "Do you play an instrument?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 6
+        },
+        {
+          "answer": "I want to learn",
+          "value": 3
+        },
+        {
+          "answer": "No",
+          "value": 2
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 20,
+      "question": "How often do you find yourseld watching TV, Hulu, YouTube, Netflix, etc?",
+      "answers": [
+        {
+          "answer": "Very often",
+          "value": 4
+        },
+        {
+          "answer": "Rarely",
+          "value": 4
+        },
+        {
+          "answer": "Ocassionally",
+          "value": 4
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 21,
+      "question": "What are your favorite sports to watch?",
+      "answers": [
+        {
+          "answer": "Basketball",
+          "value": 1
+        },
+        {
+          "answer": "Volleyball",
+          "value": 1
+        },
+        {
+          "answer": "Football",
+          "value": 1
+        },
+        {
+          "answer": "Baseball",
+          "value": 1
+        },
+        {
+          "answer": "Lacrosse",
+          "value": 1
+        },
+        {
+          "answer": "Soccer",
+          "value": 1
+        },
+        {
+          "answer": "Hockey",
+          "value": 1
+        },
+        {
+          "answer": "Other",
+          "value": 1
+        },
+        {
+          "answer": "I don't watch sports",
+          "value": 1
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 22,
+      "question": "What is your favorite movie genre",
+      "answers": [
+        {
+          "answer": "Comedy",
+          "value": 1
+        },
+        {
+          "answer": "Action",
+          "value": 1
+        },
+        {
+          "answer": "Sports",
+          "value": 1
+        },
+        {
+          "answer": "Drama",
+          "value": 1
+        },
+        {
+          "answer": "Thriller",
+          "value": 1
+        },
+        {
+          "answer": "Horror",
+          "value": 1
+        },
+        {
+          "answer": "Other",
+          "value": 1
+        },
+        {
+          "answer": "I don't like to watch movies",
+          "value": 6
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 23,
+      "question": "Do you Play sports?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 4
+        },
+        {
+          "answer": "No",
+          "value": 6
+        }
+      ],
+      "If yes": [
+        {
+          "answer": "Basketball",
+          "value": 1
+        },
+        {
+          "answer": "Volleyball",
+          "value": 1
+        },
+        {
+          "answer": "Football",
+          "value": 1
+        },
+        {
+          "answer": "Baseball",
+          "value": 1
+        },
+        {
+          "answer": "Lacrosse",
+          "value": 1
+        },
+        {
+          "answer": "Soccer",
+          "value": 1
+        },
+        {
+          "answer": "Hockey",
+          "value": 1
+        },
+        {
+          "answer": "Other",
+          "value": 1
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 24,
+      "question": "Do you go to the gym?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 5
+        },
+        {
+          "answer": "No",
+          "value": 3
+        }
+      ],
+      "If yes": [
+        {
+          "answer": "1-3 times a week",
+          "value": 2
+        },
+        {
+          "answer": "Less than once a week",
+          "value": 2
+        },
+        {
+          "answer": "3-5 times a week",
+          "value": 3
+        },
+        {
+          "answer": "5-7 times a week",
+          "value": 3
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 25,
+      "question": "Do you consider yourself the adventurous type?",
+      "answers": [
+        {
+          "answer": "Yes, I'm always down for an adventure",
+          "value": 4
+        },
+        {
+          "answer": "No, I don't like do things outside of my comfort zone",
+          "value": 4
+        }
+      ],
+      "selected_answer": "value"
+    },
+    {
+      "number": 26,
+      "question": "Do you speak more than one language?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "value": 4
+        },
+        {
+          "answer": "No",
+          "value": 0
+        }
+      ],
+      "selected_answer": "value"
+    }
+  ]
+}
