@@ -1,0 +1,158 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# CheckM8Quiz
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Questions Collection [/questions]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+        [
+            {   
+                "number": 1,
+                "question": "Would you rather be surrounded by people or keep to yourself?",
+                "published_at": "2018-07-06T08:40:51.620Z",
+                "answers": [
+                    {
+                  "answer": "No I don't mind sharing.",
+                        "value": 5
+                },
+                {
+                        "answer": "Depends on whats being shared.",
+                        "value": 3
+                },
+                {
+                        "answer": "I would rather keep my things to myself.",
+                        "value": 5
+                }]
+            }
+        ],
+        [
+            {
+                "number": 2,
+                "question": "Do you have an issue with sharing things with your roomate?",
+                "published_at": "2018-07-06T08:40:51.620Z",
+                "answers": [
+                   {
+                        "answer": "No I don't mind sharing.",
+                        "value": 5
+                    },
+                    {
+                        "answer": "Depends on whats being shared.",
+                        "value": 3
+                    },
+                    {
+                        "answer": "I would rather keep my things to myself.",
+                        "value": 5
+                    }
+                }]
+            }
+        ],
+        [
+            {
+                "number": 3,
+                "question": "Are you in a relationship?",
+                "published_at": "2018-07-06T08:40:51.620Z",
+                "answers": [
+                    {
+                        "answer": "No",
+                        "value": 4
+                    },
+                    {
+                        "answer": "Yes",
+                        "value": 4
+                    }
+                }]
+            }
+        ],
+        [
+            {
+                "number": 4,
+                "question": "Do you smoke?",
+                "published_at": "2018-07-06T08:40:51.620Z",
+                "answers": [
+                    {
+                        "answer": "No",
+                        "value": 4
+                    },
+                    {
+                        "answer": "Yes",
+                        "value": 4
+                    }
+                }]
+            }
+        ],
+        [
+            {
+                "number": 5,
+                "question": "Do you mind if guys\/girls(opposite gender) stay the night?",
+                "published_at": "2018-07-06T08:40:51.620Z",
+                "answers": [
+                    {
+                        "answer": "Yes I mind.",
+                        "value": 8
+                    },
+                    {
+                        "answer": "No I don't care",
+                        "value": 7
+                    },
+                    {
+                        "answer": "Occasionally",
+                        "value": 7
+                    }
+                }]
+            }
+        ],
+
+### Create a New Question [POST]
+
+You may create your own question using this action. It takes a JSON
+object containing a question and a collection of answers in the
+form of choices.
+
++ Request (application/json)
+
+        {
+        "number": 1,
+        "question": "Would you rather be surrounded by people or keep to yourself?",
+        "answers": [
+        {
+          "I generally enjoying being with company.",
+          
+          "It depends on my current mood.",
+          
+          "I prefer peace and quiet in my down time.",
+          
+        }]
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /questions/2
+
+    + Body
+
+            {
+                "number": 1,
+                "question": "Would you rather be surrounded by people or keep to yourself?",
+                "answers": [
+                  {
+                        "answer": "No I don't mind sharing.",
+                        "value": 5
+                },
+                {
+                        "answer": "Depends on whats being shared.",
+                        "value": 3
+                },
+                {
+                        "answer": "I would rather keep my things to myself.",
+                        "value": 5
+                }
+                ],
+            }
